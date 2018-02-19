@@ -16,7 +16,7 @@
   </a>
 </div>
 
-<div align="center">Delete directories and files. No Bullshit.</div>
+<div align="center">Delete files and directories without all the bullshit.</div>
 
 <br />
 
