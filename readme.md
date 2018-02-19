@@ -33,11 +33,11 @@ npm install eliminate
 ## Usage
 
 ```js
-const { eliminate: del } = require('eliminate');
+const del = require('eliminate');
 
 // ...
 
-await del('pathorfile/to/delete.js');
+await del('path/or/file/to/delete.js');
 ```
 
 ## API
@@ -47,7 +47,7 @@ await del('pathorfile/to/delete.js');
 
 Type: `Promise`
 
-Deletes directory/file recursively.
+Deletes directory or file.
 If the directory is a non-empty directory, everything is the directory will be deleted recursively.
 
 #### dir
