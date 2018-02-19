@@ -48,7 +48,7 @@ await del('pathorfile/to/delete.js');
 Type: `Promise`
 
 Deletes directory/file recursively.
-If the directory is a none-empty directory, everything is the directory will be deleted recursively.
+If the directory is a non-empty directory, everything is the directory will be deleted recursively.
 
 #### dir
 

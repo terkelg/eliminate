@@ -1,6 +1,6 @@
 {
   "name": "eliminate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Delete files and directories",
   "homepage": "https://github.com/terkelg/eliminate",
   "main": "src/index.js",
