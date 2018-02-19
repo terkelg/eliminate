@@ -2,7 +2,7 @@
   <img src="https://github.com/terkelg/eliminate/raw/master/eliminate.png" alt="eliminate" width="500" height="100" />
 </div>
 
-<h1 align="center">Eliminate</h1>
+<h1 align="center">eliminate</h1>
 
 <div align="center">
   <a href="https://npmjs.org/package/eliminate">
