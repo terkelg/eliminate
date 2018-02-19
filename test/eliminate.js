@@ -9,7 +9,9 @@ const DIR = join('test', 'fixtures');
 test('standard', async t => {
   t.plan(2);
 
+  mkdirp(DIR);
   const A = join(DIR, 'a.js');
+
   fs.writeFileSync(A);
 
   t.equal(typeof eliminate, 'function', 'consturctor is a typeof function');
