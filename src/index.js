@@ -30,7 +30,7 @@ async function eliminate(dir) {
 }
 
 /**
- * Delete directory or file, synchronos
+ * Delete directory or file synchronously
  * @param {String} dir The path/file to delete
  */
 function eliminateSync(dir) {

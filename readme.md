@@ -27,6 +27,8 @@
 npm install eliminate
 ```
 
+> **OBS**: This package uses async/await and requires Node.js 7.6
+
 
 ## Usage
 
@@ -59,6 +61,7 @@ A string file path to delete.
 
 Deletes directory/file recursively - synchronously.
 If the directory is a non-empty directory, everything is the directory will be deleted recursively.
+
 
 #### dir
 
