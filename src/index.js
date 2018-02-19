@@ -29,24 +29,4 @@ async function eliminate(dir) {
   await rmdir(dir);
 }
 
-/**
- * Delete directory or file, synchronos
- * @param {String} dir The path/file to delete
- */
-function eliminateSync(dir) {
-  if (!fs.lstatSync(dir).isDirectory()) {
-    fs.unlinkSync(dir);
-    return;
-  }
-  fs.readdirSync(dir).forEach(file => {
-    const path = join(dir, file);
-    if (fs.existsSync(path)) {
-      eliminateSync(path);
-    } else {
-      fs.unlinkSync(path);
-    }
-  });
-  fs.rmdirSync(dir);
-}
-
-module.exports = { eliminate, eliminateSync };
+module.exports = eliminate;

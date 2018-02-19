@@ -1,7 +1,7 @@
 const test = require('tape');
 const fs = require('fs');
 const { join } = require('path');
-const { eliminate } = require('../');
+const eliminate = require('../');
 const mkdirp = require('./helpers');
 
 const DIR = join('test', 'fixtures');

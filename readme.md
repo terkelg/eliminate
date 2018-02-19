@@ -57,18 +57,6 @@ Type: `String`
 A string file path to delete.
 
 
-### eliminateSync(path)
-
-Deletes directory/file recursively - synchronously.
-If the directory is a none-empty directory, everything is the directory will be deleted recursively.
-
-#### dir
-
-Type: `String`
-
-A string file path to delete.
-
-
 ## License
 
 MIT © [Terkel Gjervig](https://terkel.com)
