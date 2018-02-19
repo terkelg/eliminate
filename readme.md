@@ -27,7 +27,7 @@ await del('pathorfile/to/delete.js');
 
 Type: `Promise`
 
-Deltes directory/file recursively.
+Deletes directory/file recursively.
 If the directory is a none-empty directory, everything is the directory will be deleted recursively.
 
 #### dir
@@ -39,7 +39,7 @@ A string file path to delete.
 
 ### eliminateSync(path)
 
-Deltes directory/file recursively synchronously.
+Deletes directory/file recursively - synchronously.
 If the directory is a none-empty directory, everything is the directory will be deleted recursively.
 
 #### dir
