@@ -1,0 +1,38 @@
+{
+  "name": "eliminate",
+  "version": "0.1.0",
+  "description": "Delete files and directories",
+  "homepage": "https://github.com/terkelg/eliminate",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Terkel Gjervig",
+    "email": "terkel@terkel.com",
+    "url": "https://terkel.com"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terkelg/eliminate"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "io",
+    "del",
+    "rmdir",
+    "remove",
+    "delete",
+    "abolish",
+    "destroy",
+    "eliminate",
+    "filesystem"
+  ],
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
