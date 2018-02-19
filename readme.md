@@ -27,6 +27,8 @@
 npm install eliminate
 ```
 
+> **OBS**: This package uses async/await and requires Node.js 7.6
+
 
 ## Usage
 
