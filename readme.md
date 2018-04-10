@@ -24,7 +24,7 @@
 ## Installation
 
 ```
-npm install eliminate
+npm install eliminate --save
 ```
 
 > **OBS**: This package uses async/await and requires Node.js 7.6
@@ -47,14 +47,14 @@ await del('path/or/file/to/delete.js');
 
 Type: `Promise`
 
-Deletes directory or file.
-If the directory is a non-empty directory, everything is the directory will be deleted recursively.
+Deletes the directory or file.
+If the filepath is a non-empty directory, everything in it will be deleted recursively.
 
-#### dir
+#### path
 
 Type: `String`
 
-A string file path to delete.
+The file or directory path to delete.
 
 
 ## License
