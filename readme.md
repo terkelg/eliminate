@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/terkelg/eliminate/raw/master/eliminate.png" alt="eliminate" width="500" height="100" />
+  <img src="https://github.com/terkelg/eliminate/raw/master/eliminate.png" alt="eliminate" width="500" />
 </div>
 
 <h1 align="center">eliminate</h1>
