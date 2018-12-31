@@ -1,8 +1,8 @@
 {
   "name": "eliminate",
   "version": "1.0.1",
+  "repository": "terkelg/eliminate",
   "description": "Delete files and directories",
-  "homepage": "https://github.com/terkelg/eliminate",
   "main": "src/index.js",
   "license": "MIT",
   "author": {
@@ -10,12 +10,11 @@
     "email": "terkel@terkel.com",
     "url": "https://terkel.com"
   },
+  "engines": {
+    "node": ">= 8"
+  },
   "scripts": {
     "test": "tape test/*.js | tap-spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/terkelg/eliminate"
   },
   "files": [
     "src"
@@ -32,10 +31,7 @@
     "filesystem"
   ],
   "devDependencies": {
-    "tap-spec": "^4.1.1",
+    "tap-spec": "^5.0.0",
     "tape": "^4.8.0"
-  },
-  "engines": {
-    "node": ">= 8"
   }
 }
