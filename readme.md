@@ -57,6 +57,19 @@ Type: `String`
 The file or directory path to delete.
 
 
+## CLI
+
+```
+$ npm install --global eliminate
+```
+
+```
+$ eliminate path/to/file.js
+
+$ eliminate path/to/dir
+```
+
+
 ## License
 
 MIT © [Terkel Gjervig](https://terkel.com)
