@@ -4,6 +4,7 @@
   "repository": "terkelg/eliminate",
   "description": "Delete files and directories",
   "main": "src/index.js",
+  "bin": "src/bin.js",
   "license": "MIT",
   "author": {
     "name": "Terkel Gjervig",
