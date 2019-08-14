@@ -1,6 +1,6 @@
 {
   "name": "eliminate",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "repository": "terkelg/eliminate",
   "description": "Delete files and directories",
   "main": "src/index.js",
