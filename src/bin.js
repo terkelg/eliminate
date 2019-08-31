@@ -18,10 +18,7 @@ if (args.includes('--help') || args.includes('-h')) {
 if (args[0]) {
 	del(args[0])
 		.then(() => process.exit())
-		.catch(() => {
-			console.log(`Could not eliminate '${args[0]}'`);
-			process.exit(1)
-		})
+		.catch(() => console.log(`Could not eliminate '${args[0]}'`))
 } else {
 	console.log('No path provided');
 	process.exit();
